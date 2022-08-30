@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="./core/style.css">
+    <script type="text/javascript" src="./core/script.js"></script>
+    <body>
+        <div id="container">
+            <div id="INPUT" class="IMEarea">
+                <textarea id="InputText" cols="100" rows="20" class="noresize"></textarea>
+                <button onclick="toABC()">to abc</button>
+                <button onclick="toBPM()">to ㄅㄆㄇ</button>
+            </div>
+            <div id="OUTPUT" class="IMEarea">
+                <textarea id="OutputText" cols="100" rows="20" class="noresize" readonly></textarea>
+                <input type="checkbox" id="Vertical" onchange="switchMode(event)">直式注音</input>
+            </div>
+        </div>
+    </body>
+</html>

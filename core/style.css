@@ -1,0 +1,19 @@
+
+
+body {
+    display: flex;
+}
+
+#container {
+    flex: 1;
+}
+
+.IMEarea {
+    width: auto;
+    height: auto;
+    background-color: aqua;
+}
+
+textarea {
+    resize: none;
+}
